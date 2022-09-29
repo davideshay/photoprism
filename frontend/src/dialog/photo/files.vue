@@ -102,6 +102,14 @@
                         </tr>
                         <tr>
                           <td>
+                            <translate>Additional Link</translate>
+                          </td>
+                          <td>
+                              <a v-bind:href="'https://files.shaytech.net/files/desktopfiles/Pictures/LightRoomNegatives/'+ model.Details.Artist ">https://files.shaytech.net/files/desktopfiles/Pictures/LightRoomNegatives/{{ model.Details.Artist }}</a>
+                          </td>
+                        </tr>  
+                        <tr>
+                          <td>
                             <translate>Size</translate>
                           </td>
                           <td>{{ file.sizeInfo() }}</td>
